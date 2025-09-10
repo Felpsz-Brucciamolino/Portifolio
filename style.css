@@ -1,0 +1,21 @@
+body {
+    background: color #000;;
+    color: #4ca2f8;
+}
+.destaque_titulo{
+    color: #58A4B0;
+}
+span{
+    color: #751f1f;
+    border: 1px solid #14a2c2;
+    padding: 10px;
+}
+
+a{
+    color: #492200;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+}

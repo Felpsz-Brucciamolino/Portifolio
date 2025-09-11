@@ -27,7 +27,7 @@ a{
 }
 
 .apresentacao__conteudo{
-    width: 750px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -43,25 +43,35 @@ a{
     font-family: "Montserrat", sans-serif;
 }
 
-.apresentacao__conteudo__lista{
+/* .apresentacao__conteudo__lista{
     font-size: 18px;
     font-family: "Roboto", sans-serif;
-}
+} */
 
 .apresentacao__links{
+    width: 750px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.apresentacao__links__titulo{
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400px;
 }
 
 .apresentacao__links__link{
-    background-color: #22d4fd;
-    width: 280px;
+    border: 2px solid #14a2c2;
+    border-radius: 32px;
+    width: 250px;
     text-align: center;
-    border-radius: 16px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000;
+    color: #22d4fd;
     font-family: "Montserrat", sans-serif;
 }

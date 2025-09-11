@@ -21,7 +21,7 @@ body {
 }
 
 .cabecalho{
-    padding:  0.5% 0% 0% 8%;
+    padding:  1% 0% 0% 3%;
 }
 
 .cabecalho__menu{
@@ -45,10 +45,11 @@ span{
 
 
 .apresentacao{
-    padding: 2% 8%;
+    padding: 2% 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -83,11 +84,12 @@ span{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2%;
 }
 
 .apresentacao__links__titulo{
-    font-size: 1.5rem;
+    width: 45%;
+    font-size: 1.2rem;
     font-family: var(--fonte-primaria);
     font-weight: 400px;
 }
@@ -97,7 +99,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 1.4rem;
     border-radius: 32px;
     width: 45%;
     text-align: center;
@@ -120,7 +122,7 @@ strong:hover{
 }
 
 .apresentacao__imagem{
-    width: 40%;
+    width: 50%;
 }
 
 .esqueleto_la_ele{
@@ -130,7 +132,7 @@ strong:hover{
 .rodape{
     font-weight: 400px;
     font-size: 1.5rem;
-    padding: 1.35%;
+    padding: 0.5%;
     display: flex;
     justify-content: center;
     font-family: var(--fonte-secundaria);
@@ -148,3 +150,10 @@ strong:hover{
     justify-content: center;
     text-align: center;
 } */
+
+
+@media (max-width: 1200px){
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+}

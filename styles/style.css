@@ -39,8 +39,6 @@ body {
 
 span{
     color: var(--cor-terciaria);
-    border: 1px solid var(--cor-secundaria);
-    padding: 10px;
 }
 
 
@@ -163,5 +161,9 @@ strong:hover{
 
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
     }
 }
